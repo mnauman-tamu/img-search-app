@@ -1,7 +1,7 @@
 const BASE_URL = 'https://api.imgur.com';
 
 const getHeader = () => ({
-    Authorization: `Client-ID ${import.meta.env.CLIENT_ID}`,
+  Authorization: `Client-ID ${import.meta.env.VITE_CLIENT_ID}`,
 })
 
 export const fetchData = async (endpoint: string): Promise<any> => {
