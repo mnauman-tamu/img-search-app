@@ -14,6 +14,8 @@ To run using ngrok:
 - Install ngrok and run ngrok http 5173
 - Navigate to 127.0.0.1:4040 and click on the link to go to the app
 
+Live demo: https://mnauman-tamu.github.io/img-search-app/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
